@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADK test</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+<body>
+    <form action="" id="form">
+
+        <div class="form__group" id="group__name">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Jon Doe">
+        </div>
+
+        <div class="form__group" id="group__email">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="youremail@email.com">
+        </div>
+
+        <div class="form__group">
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="1">USA</option>
+                <option value="2">International</option>
+            </select>
+        </div>
+
+        <div class="form__group" id="group__phone">
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" id="phone">
+        </div>
+
+        <div class="form__group">
+            <label for="date">Date of Purchase</label>
+            <input type="date" name="date" id="date">
+        </div>
+
+        <div class="form__group">
+            <label for="product">Product</label>
+            <select name="product" id="product">
+                <option disabled name="v100" value="v100" id="v100">v100</option>
+                <option disabled name="v200" value="v200" id="v200">v200</option>
+                <option disabled name="v300" value="v300" id="v300">v300</option>
+            </select>
+        </div>
+
+        <div class="form__group">
+            <label for="serial">serial Number</label>
+            <input type="text" name="serial" id="serial" maxlength="16>
+        </div>
+        <div class=""></div>
+        <div class="form__group form__extra-options" id="extraOptions">
+            <p>v300 extra options</p>
+            <label for="extra"><input type="checkbox" id="hardwood" value="hardwood-floor-attachment">hardwood floor
+                attachment</label>
+            <label for="extra"><input type="checkbox" id="car" value="car-attachment">car attachment</label>
+            <label for="extra"><input type="checkbox" id="carpet" value="carpet-attachment">carpet attachment</label>
+            <label for="extra"><input type="checkbox" id="pet" value="pet-attachment">pet attachment</label>
+            <label for="extra"><input type="checkbox" id="fine" value="fine-detail-attachment">fine detail
+                attachment</label>
+        </div>
+
+        <div class="form__group">
+            <label for="photo">Photo Upload</label>
+            <input type="file" name="photo" id="photo">
+        </div>
+
+        <div class="form__group">
+            <label for="terms"><input type="checkbox" id="terms">i accept the terms and conditions</label>
+
+        </div>
+
+        <input type="submit" value="submit" name="submit">
+
+
+    </form>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

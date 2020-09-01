@@ -1,0 +1,20 @@
+
+
+input {
+    margin: 10px;
+}
+.form__extra-options {
+    display: none;
+}
+
+.form__extra-options-active {
+    display: flex;
+    flex-direction: column;
+}
+
+.error {
+    border: 3px solid red;
+}
+.correct {
+    border: 3px solid blue;
+}
